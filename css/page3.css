@@ -1,0 +1,362 @@
+ *{
+        box-sizing: border-box;
+    }
+    /* 邊框不列入寬度的預算*/
+    body{
+        margin : 0 ;
+        font-family: Microsoft JhengHei;
+        background: #FFFAFA;
+    }
+    /* 至頂 */
+        .img1{
+            width:180px ;
+            height:70px; 
+            position:absolute;
+            top:7px ;
+            left:250px ;
+           
+        }
+        .div1{
+           width:100%;
+            height:85px;
+            border:0px #FFFAFA;
+            background: #FFFAFA;
+            padding: 0px;
+        }
+        p{
+            position: absolute;
+            top:13px ;
+            left:1200px ;
+            font-family: Microsoft JhengHei;
+            font-size: 16px;
+            color: black;
+        }
+         .div2{
+           width:100%;
+            height:58px;
+            border:0px #ffffff;
+            background: white;
+            padding: 0px;
+        }
+        p1{
+             position: absolute;
+             top:100px;
+            left:250px;
+        }
+        p2{
+             position: absolute;
+             top:100px;
+            left:330px;
+        }
+         p3{
+             position: absolute;
+             top:100px;
+            left:395px;
+        }
+          p4{
+             position: absolute;
+             top:100px;
+            left:460px;
+        }
+         p5{
+             position: absolute;
+             top:100px;
+            left:505px;
+        }
+         p6{
+             position: absolute;
+             top:90px;
+            left:1055px;
+             color: white;
+             padding-left: 10px;
+              padding-right: 10px;
+             padding-top: 8px;
+             padding-bottom: 8px;
+           background: #AA0000	;        
+        }
+        p7{
+            position: absolute;
+             top:100px;
+            left:1195px;
+        }
+        i{
+             top:104px;
+            left:1170px;
+            position: absolute;
+            width: 100px;
+            height: 125px;
+        }
+         .div3{
+           width:100%;
+            height:450px;
+            border:0px #FFFAFA;
+            background: #FFFAFA;
+            padding: 0px;
+        }
+        .img2{
+          width:960px ;
+            height:400px; 
+            position:absolute;
+            top:150px ;
+            left:250px ;
+            animation: op_01 7s ease-in-out infinite;
+        }
+        .img3{
+            width:960px ;
+            height:400px; 
+            position:absolute;
+            top:150px ;
+            left:250px ;
+        animation: op_02 7s ease-in-out infinite;
+        }
+        @keyframes op_01{
+           30%{
+			opacity: 1;
+		}
+		70%{
+			opacity: 0;
+		}
+		100%{
+			opacity: 1;
+		}
+        }
+         @keyframes op_02{
+          0%{
+			opacity: 1;
+		}
+		30%{
+			opacity: 0;
+		}
+        }
+        
+        .div4{
+         width:100%;
+            height:150px;
+            border:1px black;
+            background: #FFFAFA;
+            padding: 0px;
+        }
+        p8{
+            position: absolute;
+             top:600px;
+            left:270px;
+             color: black;
+        }
+         p9{
+            position: absolute;
+             top:650px;
+            left:270px;
+             color: black;
+
+        }
+         p10{
+            position: absolute;
+             top:700px;
+            left:270px;
+             color: black;
+             
+        }
+        p11{
+             position: absolute;
+             top:750px;
+            left:270px;
+             color: black;
+        }
+        .img4{
+            position:absolute;
+            top:620px ;
+            left:520px ;
+        }
+        .div4 p1{
+             position:absolute;
+            top:762px ;
+            left:525px ;
+        }
+        .img5{
+            position:absolute;
+            top:620px ;
+            left:785px ;
+        }
+        .div4 p2{
+            position:absolute;
+            top:762px ;
+            left:791px ;
+        }
+        .img6{
+            position:absolute;
+            top:620px ;
+            left:1045px ;
+        }
+        .div4 p3{
+             position:absolute;
+            top:762px ;
+            left:1051px ;
+        }
+        .div4 h1{
+             position:absolute;
+            top:547px ;
+            left:522px ;
+        }
+         .div5{
+         width:100%;
+            height:150px;
+            border:1px black;
+            background: #FFFAFA;
+            padding: 0px;
+        }
+        .div5 h1{
+            position:absolute;
+            top:827px ;
+            left:262px ;
+            font-size:25px;
+        }
+        .div5 p{
+            position:absolute;
+            top:887px ;
+            left:262px ;
+            font-weight:bold;
+        }
+        .div5 p1{
+             position:absolute;
+            top:932px ;
+            left:262px ;
+            
+        }
+         .div5 p2{
+             position:absolute;
+            top:960px ;
+            left:262px ;
+             font-weight:bold;
+        }
+         .div5 p3{
+             position:absolute;
+            top:986px ;
+            left:262px ;
+             
+        }
+        .div5 p4{
+             position:absolute;
+            top:1015px ;
+            left:262px ;
+            font-weight:bold;
+        }
+        .div5 p5{
+             position:absolute;
+            top:1040px ;
+            left:262px ;
+        }
+         .div5 p7{
+             position:absolute;
+            top:1068px ;
+            left:262px ;
+              font-weight:bold;
+        }
+        .div5 p8{
+             position:absolute;
+            top:1093px ;
+            left:262px ;
+        }
+        .div5 p10{
+             position:absolute;
+            top:902px ;
+            left:557px ;
+            font-weight:bold;
+        }
+          .div5 p11{
+             position:absolute;
+            top:928px ;
+            left:557px ;
+         
+        }
+        .div5 p12{
+             position:absolute;
+            top:955px ;
+            left:557px ;
+         font-weight:bold;
+        }
+        .div5 p13{
+             position:absolute;
+            top:985px ;
+            left:557px ;
+    
+        }
+          .div5 p14{
+             position:absolute;
+            top:1013px ;
+            left:557px ;
+    font-weight:bold;
+        }
+         .div5 p15{
+             position:absolute;
+            top:1040px ;
+            left:557px ;
+    
+        }
+        .div5 p20{
+             position:absolute;
+            top:900px ;
+            left:807px ;
+    font-weight:bold;
+        }
+         .div5 p21{
+             position:absolute;
+            top:927px ;
+            left:807px ;
+   
+        }
+        .div5 p22{
+             position:absolute;
+            top:954px ;
+            left:807px ;
+    font-weight:bold;
+        }
+         .div5 p23{
+             position:absolute;
+            top:983px ;
+            left:807px ;
+        }
+          .div5 p24{
+             position:absolute;
+            top:1013px ;
+            left:807px ;
+              font-weight:bold;
+        }
+        .div5 p25{
+             position:absolute;
+            top:1039px ;
+            left:807px ;
+        }
+        .div5 p30{
+             position:absolute;
+            top:898px ;
+            left:1040px ;
+             font-weight:bold;
+        }
+        .div5 p31{
+             position:absolute;
+            top:926px ;
+            left:1040px ;
+        }  
+        .div5 p32{
+             position:absolute;
+            top:953px ;
+            left:1040px ;
+             font-weight:bold;
+        }
+        .div5 p33{
+             position:absolute;
+            top:982px ;
+            left:1040px ;
+        }
+        .div5 p34{
+             position:absolute;
+            top:1011px ;
+            left:1040px ;
+            font-weight:bold;
+        }
+         .div5 p35{
+             position:absolute;
+            top:1037px ;
+            left:1040px ;
+           
+        }
